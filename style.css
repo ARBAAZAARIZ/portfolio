@@ -1,0 +1,592 @@
+body{
+    background-color: rgb(17, 16, 16);
+}
+header{
+    background-color: rgb(14, 13, 13);
+    box-shadow: 1px 2px 3px rgb(222, 163, 135);
+position: fixed;
+width: 91%;
+height: auto;
+}
+.head-navbar{
+    display: flex;
+    width: 100%;
+    height: auto;
+
+}
+.logo-div{
+    
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: auto;
+}
+.logo{
+    font-family: "Caveat Brush", cursive;
+    font-size: 60px;
+    margin-top: 10px;
+    color:wheat;
+}
+.lio-color{
+    color: rgb(220, 81, 22);
+}
+.link-list-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: auto;
+}
+
+.link-list-div>a{
+    text-decoration: none;
+    font-family: "Caveat Brush", cursive;
+    color: rgb(163, 107, 32);
+    font-size: 1.5em;
+}
+.link-list-div>a:hover{
+    transform:translateY(-6px);
+    transition: 0.4s;
+}
+.hire-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 15%;
+    height: auto;
+}
+
+.Hire-btn{
+    width: 60%;
+    height: 50%;
+    color: wheat;
+    background-color: rgb(210, 79, 18);
+    border-radius: 30px;
+    font-family: "Caveat Brush", cursive;
+    font-size: 1.3em;
+}
+.hire-btn-div>button:hover{
+    background-color: black;
+    color: wheat;
+    font-family: "Caveat Brush", cursive;
+    font-size: 1.5em;
+}
+.Hire-btn>a{
+   text-decoration: none;
+   color: wheat;
+   
+}
+.menu-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5%;
+    height: auto;   
+}
+.menu-div>i{ 
+    color: wheat;
+    font-size: 1.5em;
+}
+.menu-div>i:hover{
+    font-size: 1.8em;
+}
+/* main  */
+
+.main-div{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    
+}
+.sub-main-div-1{
+    width: 60%;
+    height: 100%;
+}
+.sub-main-div-2{
+    width: 40%;
+    height: 100%;
+    
+}
+
+.sub-to-sub-main-div-1{
+    width: 100%;
+    height: 30%;
+    
+}
+.sub-to-sub-main-div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+    width: 100%;
+    height: 70%;
+    
+}
+.home-text{
+    color: rgb(248, 240, 225);
+    width: auto;
+    height: auto;
+    font-family: cursive;
+    font-weight: bold;
+    padding-left: 5%;
+}
+.name{
+    font-family: "Sriracha", cursive;
+    font-size: 80px;
+    font-weight: bolder;
+    
+    
+}
+.alam{
+    color: rgb(210, 86, 19);
+}
+.wrapper{
+    display: inline-flex;
+
+}
+.wrapper .static-text{
+    font-size: 1.8em;
+    font-weight: 800;
+
+}
+.wrapper .dynamic-text{
+ 
+  height: 90px;
+  
+ /* background: red; */
+ overflow: hidden;
+}
+.dynamic-text li{
+    color: rgb(234, 85, 6);
+    font-size: 2rem;
+    
+    position: relative;
+    
+
+}
+
+.dynamic-text li span{
+    position: relative;
+}
+.dynamic-text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(17, 16, 16);
+    border-left: 2px solid wheat;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin:0 -20px 0 20px
+    }
+    
+}
+
+
+.java{
+    color: rgb(210, 86, 19);
+}
+.para2{
+    font-family: cursive;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.home-text button{
+    height: 6vh;
+    width: 20vh;
+    border-radius: 10px;
+    background-color: rgb(233, 111, 10);
+}
+.sub-to-sub-main-div-3{
+    width: 100%;
+    height: 16%;
+    
+}
+.sub-to-sub-main-div-4{
+    width: 100%;
+    height: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-to-sub-main-div-5{
+    width: 100%;
+    height: 8%;
+    
+}
+.profile-img{
+    height: 100%;
+    width: 100%;
+    
+}
+.profile-img>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 55%;
+    box-shadow: 0px 0px 30px rgb(234, 61, 14);
+}
+
+/* about us div */
+
+.about-us-div{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us-head{
+    width: 100%;
+    height: auto;
+    font-family: "Caveat Brush", cursive;
+    color: rgb(185, 45, 45);
+    text-align: right;
+
+}
+.about-us-head>h1{
+    padding-right: 25%;
+}
+.about-us-text{
+    width: 80%;
+    height: auto;
+    
+}
+.about-text-para1{
+    font-family: cursive;
+    font-size: 1.4em;
+    color: rgb(250, 238, 217);
+}
+.head-projects>h1{  
+   color: wheat;
+}
+.spacing1{
+    width: 100%;
+    height: 10%;
+    
+}
+
+/* project css */
+
+.project-div{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.head-projects{
+    font-family: "Caveat Brush", cursive;
+}
+.head-projects>h1>span{
+    color: rgb(208, 19, 19);
+    font-size: 1.5em;
+}
+
+.skill-div{
+    width: 100%;
+    height: 100px;   
+}
+.skill-div>h1{
+    color: wheat;
+}
+.project-div>h3{
+    font-family: cursive;
+    color: rgb(249, 239, 219);
+}
+.project-div>h4{
+    font-family: cursive;
+    color: rgb(249, 239, 219);
+}
+.project-div>h4>a:link{
+    text-decoration:none; 
+}
+.project-div>h4>a:hover{
+    color: red;
+    
+}
+.hr-line{
+    height: 1px;
+    width: 60%;
+}
+.hr-line>hr{
+    color: bisque;
+}
+
+/* skills css */
+
+.skill-div{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    font-family: "Caveat Brush", cursive;
+    /* background-color: white; */
+}
+.skill-child-div>h1{
+    color: wheat;
+}
+.skill-child-div>h3{
+    color: wheat;
+}
+.skills{
+    color: rgb(208, 19, 19);
+}
+.skill-parent-div{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(239, 136, 19, 0.886); */
+    display: flex;
+
+}
+.skill-child-div{
+    width: 50%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.progress-bar{
+    width: 60%;
+    height: 2%;
+    /* background-color: rgb(105, 105, 245); */
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px wheat;
+}
+.progress-bar-percent-HTML{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(173, 48, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.progress-bar-percent-CSS{
+    width: 98%;
+    height: 100%;
+    background-color: rgb(173, 48, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.progress-bar-percent-J-SCRIPT{
+    width: 1%;
+    height: 100%;
+    background-color: rgb(173, 48, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.progress-bar-percent-SQL{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(173, 48, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.progress-bar-percent-JAVA{
+    
+    width: 60%;
+    height: 100%;
+    background-color: rgb(173, 48, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.progress-bar-percent-SPRING_BOOT{
+    width: 0%;
+    height: 100%;
+    background-color: rgb(173, 48, 26);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+/* contact me  */
+
+
+.contact-me-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
+.contact-me-div>.div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+   width: 100%;
+   height: 45%;
+   
+   box-sizing: border-box;
+}
+.contact-me-div>.div2{
+    display: flex;
+
+    width: 70%;
+    height: 45%;
+    
+      
+ }
+ .spacing-div{
+ width: 50%;
+ }
+.div2-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    width: 40%;
+    height:100%;
+    
+}
+#name{
+    height: 20%;
+    width: 80%;
+    box-shadow: 0px 0px 2px wheat;
+    border-radius: 10px;
+    background-color: wheat;
+}
+#email{
+    height: 20%;
+    width: 80%;
+    box-shadow: 0px 0px 2px wheat;
+    border-radius: 10px;
+    background-color: wheat;
+}
+#submit{
+    height: 30%;
+    width: 80%;
+    box-shadow: 0px 0px 2px wheat;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.div2-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height:100%;
+    
+}
+#message{
+    height: 80%;
+    width: 100%;
+    box-shadow: 0px 0px 2px wheat;
+    border-radius: 10px;
+    background-color: wheat;
+}
+
+[placeholder]{
+    font-size: 0.7em;
+    font-family: cursive;
+    
+}
+.button-send{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6%;
+}
+#send-btn{
+    width: 7%;
+    border-radius: 10px;
+    background-color: rgb(250, 12, 12);
+    font-family: "Caveat Brush", cursive;
+}
+.button-send>button:hover{
+        background-color: black;
+        color: wheat;
+        font-family: "Caveat Brush", cursive;
+        font-size: 1.5em;   
+}
+
+
+.contact-content-div{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+    height: 90%; 
+
+}
+
+.contect-me-text{
+    width: 50%;
+    height: 35%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contect-me-text>h1{
+    color: wheat;
+    font-size: 6em;
+    font-family: "Caveat Brush", cursive;
+}
+.line{
+    width: 0.3%;
+    height: 35%;
+    background-color: wheat;
+}
+.line-between-space{
+    width: 0.2%;
+    height: 35%;
+}
+.contact-information{
+    
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 49.2%;
+    height: 35%;
+}
+
+
+.contact-information-child-div{
+    padding-left: 2%;
+    font-family: cursive;
+    font-size: 1em;
+    height: 30%;
+    width: 100%;  
+    
+}
+.address{
+    color: rgb(251, 27, 27);
+}
+.telephone{
+    color: rgb(251, 27, 27);
+}
+.email{
+    color: rgb(251, 27, 27);
+}
+.media-icon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    width: 100%;
+    height: 10%;
+    font-size: 2.2em;
+    color: wheat;
+}
+
+.media-icon i{
+    color: wheat;
+}
+.media-icon>i:hover{
+    font-size: 1.5em;
+}
