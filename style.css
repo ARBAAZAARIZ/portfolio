@@ -159,11 +159,9 @@ height: auto;
 }
 .dynamic-text li{
     color: rgb(234, 85, 6);
-    font-size: 2rem;
-    
+    font-size: 2.1rem;
+   
     position: relative;
-    
-
 }
 
 .dynamic-text li span{
@@ -173,11 +171,11 @@ height: auto;
     content: "";
     position: absolute;
     left: 0;
-    height: 100%;
+    height: 110%;
     width: 100%;
     background-color: rgb(17, 16, 16);
-    border-left: 2px solid wheat;
-    animation: typing 1.5s steps(10) infinite;
+    border-left: 2px solid rgb(251, 219, 159);
+    animation: typing 2s steps(10) infinite;
 }
 
 @keyframes typing {
@@ -203,9 +201,16 @@ height: auto;
     border-radius: 10px;
     background-color: rgb(233, 111, 10);
 }
+.home-text button:hover{
+    height: 6vh;
+    width: 20vh;
+    border-radius: 10px;
+    color: wheat;
+    background-color: rgb(49, 46, 43);
+}
 .sub-to-sub-main-div-3{
     width: 100%;
-    height: 16%;
+    height: 18%;
     
 }
 .sub-to-sub-main-div-4{
@@ -217,19 +222,19 @@ height: auto;
 }
 .sub-to-sub-main-div-5{
     width: 100%;
-    height: 8%;
+    height: 6%;
     
 }
 .profile-img{
     height: 100%;
-    width: 100%;
+    width: 80%;
     
 }
 .profile-img>img{
     height: 100%;
     width: 100%;
-    border-radius: 55%;
-    box-shadow: 0px 0px 30px rgb(234, 61, 14);
+    border-radius: 40px;
+    box-shadow: 0px 0px 30px rgb(245, 202, 191);
 }
 
 /* about us div */
@@ -369,28 +374,28 @@ height: auto;
 .progress-bar-percent-HTML{
     width: 100%;
     height: 100%;
-    background-color: rgb(173, 48, 26);
+    background-color: rgb(6, 111, 12);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 .progress-bar-percent-CSS{
     width: 98%;
     height: 100%;
-    background-color: rgb(173, 48, 26);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    background-color: rgb(7, 108, 26);
+    border-radius: 10px;
+
 }
 .progress-bar-percent-J-SCRIPT{
     width: 1%;
     height: 100%;
-    background-color: rgb(173, 48, 26);
+    background-color: rgb(127, 47, 47);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
 .progress-bar-percent-SQL{
     width: 40%;
     height: 100%;
-    background-color: rgb(173, 48, 26);
+    background-color: rgb(228, 146, 4);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
@@ -398,7 +403,7 @@ height: auto;
     
     width: 60%;
     height: 100%;
-    background-color: rgb(173, 48, 26);
+    background-color: rgb(179, 223, 16);
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
