@@ -193,14 +193,15 @@ height: auto;
     width: 100%;
     background-color: rgb(17, 16, 16);
     border-left: 2px solid rgb(251, 219, 159);
-    animation: typing 2s steps(10) infinite;
+    animation: typing 2s  infinite;
 }
 
 @keyframes typing {
-    100%{
-        left: 100%;
+    50%{
+        left: 90%;
         margin:0 -20px 0 20px
     }
+    
     
 }
 
