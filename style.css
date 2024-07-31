@@ -7,18 +7,22 @@ body{
 
 
 header{
-    background-color: rgb(14, 13, 13);
-    box-shadow: 1px 2px 3px rgb(222, 163, 135);
-position: fixed;
-width: 91%;
-height: auto;
+    box-shadow: 0px 0px 14px wheat;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 91%;
+    height: auto;
 
 }
 .head-navbar{
     display: flex;
     width: 100%;
     height: auto;
-    background-color: rgb(16, 16, 16);
+    
 }
 .logo-div>img{
     
@@ -337,6 +341,7 @@ height: auto;
 .hr-line{
     height: 1px;
     width: 60%;
+    z-index: -1;
 }
 .hr-line>hr{
     color: bisque;
@@ -345,93 +350,71 @@ height: auto;
 /* skills CSS */
 
 .skill-div{
+    
     width: 100%;
     height: 80vh;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
     align-items: center;
     font-family: "Caveat Brush", cursive;
     /* background-color: white; */
 }
 .skill-child-div>h1{
+    font-size: 2em;
     color: wheat;
 }
-.skill-child-div>h3{
-    color: wheat;
+.my{
+    font-size: 4.5em;
 }
+
 .skills{
-    color: rgb(208, 19, 19);
+    font-size: 5rem;
+    color: rgb(237, 11, 11);
 }
 .skill-parent-div{
-    width: 100%;
-    height: 100%;
-    /* background-color: rgba(239, 136, 19, 0.886); */
+    
+    border-radius: 20px;    
+    width: 40%;
+    height: 60%;
+    box-shadow: -1px -1px 15px wheat;
+    background-color: rgb(201, 55, 15);
     display: flex;
-
-}
-.skill-child-div{
-    width: 50%;
-    height: 100%;
-    /* background-color: burlywood; */
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-
-
-
-.progress-bar{
-    width: 60%;
-    height: 2%;
-    /* background-color: rgb(105, 105, 245); */
-    border-radius: 10px;
-    box-shadow: 1px 1px 2px wheat;
-}
-.progress-bar-percent-HTML{
-    width: 100%;
-    height: 100%;
-    background-color: rgb(6, 111, 12);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.progress-bar-percent-CSS{
-    width: 98%;
-    height: 100%;
-    background-color: rgb(7, 108, 26);
-    border-radius: 10px;
-
-}
-.progress-bar-percent-J-SCRIPT{
-    width: 1%;
-    height: 100%;
-    background-color: rgb(127, 47, 47);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.progress-bar-percent-SQL{
-    width: 40%;
-    height: 100%;
-    background-color: rgb(228, 146, 4);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-.progress-bar-percent-JAVA{
     
-    width: 60%;
-    height: 100%;
-    background-color: rgb(179, 223, 16);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    
 }
-.progress-bar-percent-SPRING_BOOT{
-    width: 0%;
-    height: 100%;
-    background-color: rgb(173, 48, 26);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+.wrapper_skill{
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+    color: rgb(0, 0, 0);
+   text-align: center;
+    display: flex;
+    
+    font-family: cursive;
+    
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   
 }
+.wrapper_skill>h1{
+    font-size: 3em;
+    color: wheat;
+    font-weight: 900;
+    
+}
+.wrapper_skill>p{
+    font-size: 1.3em;
+   font-weight: 600; 
+   
+}
+
+/* wrapper_skill */
+
+
 
 
 /* contact me CSS  */
