@@ -1,3 +1,8 @@
+::selection {
+    color: rgb(36, 32, 32);
+    background: rgb(255, 128, 0);
+  }
+
 body{
     background-color: rgb(17, 16, 16);
 }
